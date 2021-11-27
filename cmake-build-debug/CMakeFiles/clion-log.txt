@@ -1,0 +1,5 @@
+"/Users/saqib/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS
+-- Found SFML 2.5.1 in /opt/homebrew/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/cmake-build-debug
