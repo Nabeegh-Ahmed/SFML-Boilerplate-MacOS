@@ -7,6 +7,8 @@ CMakeFiles/SFMLOpenNUCES.dir/_backend/AppBackend.cpp.o: \
 CMakeFiles/SFMLOpenNUCES.dir/_frontend/AppFrontend.cpp.o: \
  ../_frontend/AppFrontend.cpp \
  ../_frontend/AppFrontend.h \
+ ../_frontend/Components.h \
+ ../_frontend/Config.h \
  /opt/homebrew/include/SFML/Config.hpp \
  /opt/homebrew/include/SFML/Graphics.hpp \
  /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \

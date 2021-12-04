@@ -1,9 +1,7 @@
+#include "Config.h"
 #include "AppFrontend.h"
+#include "Components.h"
 
-#define WIDTH 1920
-#define HEIGHT 1080
-#define TITLE "SFML Starter - Open NUCES"
-#define APP_ICON "../_frontend/assets/icons/global/appIcon.png"
 
 AppFrontend::AppFrontend() {
     window = nullptr;
@@ -15,28 +13,10 @@ AppFrontend::~AppFrontend() {
 
 void AppFrontend::Initialize() {
     createWindow();
-    addIconToWindow();
+    setWindowIcon();
 }
 
 void AppFrontend::Start() {
-
-
-    sf::RectangleShape background;
-    background.setSize(sf::Vector2f(WIDTH, HEIGHT));
-    background.setFillColor(sf::Color(23,100,255));
-    background.setPosition(0, 0);
-
-    // ----
-
-    sf::RectangleShape logoShape;
-    sf::Texture logoTexture;
-
-    logoTexture.loadFromFile(APP_ICON);
-    logoShape.setTexture(&logoTexture);
-    logoShape.setPosition((WIDTH / 2) - 250, (HEIGHT / 2) - 250);
-    logoShape.setSize(sf::Vector2f(500, 500));
-
-    // ----
 
     while(window->isOpen()){
 
@@ -50,8 +30,8 @@ void AppFrontend::Start() {
 
             window->clear();
 
-            window->draw(background);
-            window->draw(logoShape);
+            window->draw(Components::SplashScreenBackground());
+            window->draw(Components::SplashScreenLogo());
 
             window->display();
 
@@ -65,7 +45,7 @@ void AppFrontend::createWindow() {
     window = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32),TITLE);
 }
 
-void AppFrontend::addIconToWindow() {
+void AppFrontend::setWindowIcon() {
     sf::Image appIcon;
     appIcon.loadFromFile(APP_ICON);
     window->setIcon(appIcon.getSize().x, appIcon.getSize().y, appIcon.getPixelsPtr());

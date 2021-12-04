@@ -3,7 +3,7 @@ project(SFMLOpenNUCES)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(SFMLOpenNUCES main.cpp _frontend/AppFrontend.cpp _frontend/AppFrontend.h _backend/AppBackend.cpp _backend/AppBackend.h)
+add_executable(SFMLOpenNUCES main.cpp _frontend/AppFrontend.cpp _frontend/AppFrontend.h _backend/AppBackend.cpp _backend/AppBackend.h _frontend/Components.h _frontend/Config.h)
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 REQUIRED system window graphics network audio)

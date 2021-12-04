@@ -7,6 +7,8 @@ CMakeFiles/SFMLOpenNUCES.dir/_backend/AppBackend.cpp.o
 CMakeFiles/SFMLOpenNUCES.dir/_frontend/AppFrontend.cpp.o
  /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.cpp
  /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.h
+ /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Components.h
+ /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Config.h
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
  /opt/homebrew/include/SFML/Graphics/BlendMode.hpp

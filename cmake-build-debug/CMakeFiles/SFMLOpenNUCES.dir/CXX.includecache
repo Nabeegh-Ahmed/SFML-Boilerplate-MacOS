@@ -7,16 +7,24 @@
 #IncludeRegexTransform: 
 
 /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.cpp
+Config.h
+/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Config.h
 AppFrontend.h
 /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.h
+Components.h
+/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Components.h
 
 /Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.h
 SFML/Graphics.hpp
 -
 
-/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/main.cpp
-_frontend/AppFrontend.h
-/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.h
+/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Components.h
+SFML/Graphics.hpp
+-
+Config.h
+/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Config.h
+
+/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Config.h
 
 /opt/homebrew/include/SFML/Config.hpp
 TargetConditionals.h

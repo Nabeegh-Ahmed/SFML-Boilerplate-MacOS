@@ -13,7 +13,7 @@ public:
 
 private:
     void createWindow();
-    void addIconToWindow();
+    void setWindowIcon();
 
 private:
     sf::RenderWindow* window;

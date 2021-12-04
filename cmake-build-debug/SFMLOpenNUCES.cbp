@@ -94,6 +94,12 @@
 		<Unit filename="/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/AppFrontend.h">
 			<Option target="SFMLOpenNUCES"/>
 		</Unit>
+		<Unit filename="/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Components.h">
+			<Option target="SFMLOpenNUCES"/>
+		</Unit>
+		<Unit filename="/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/_frontend/Config.h">
+			<Option target="SFMLOpenNUCES"/>
+		</Unit>
 		<Unit filename="/Users/saqib/Documents/University/Open-NUCES/SFML-Boilerplate-MacOS/main.cpp">
 			<Option target="SFMLOpenNUCES"/>
 		</Unit>
